@@ -3,7 +3,7 @@
 ## Demo
 ![Demo gif](https://imgur.com/Ff76aaX.gif)
 
-
+## Summary
 Body Mass Index (BMI) is a measure of health based on height and weight specified in metric units (i.e.,
 meters and kilograms, respectively). Given a user weighting k kilograms and who is m meter tall, their BMI
 is calculated as:
@@ -11,7 +11,7 @@ is calculated as:
 BMI = k / m^2
 
   
-# Installation (For MAC only):
+## Installation Instructions(For MAC only):
 
   - Create New Project (**File > New > New Project**):
    ![Step 1](https://imgur.com/97hJKuS.png)
