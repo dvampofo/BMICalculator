@@ -11,7 +11,7 @@ is calculated as:
 BMI = k / m^2
 
   
-## Installation Instructions(For MAC only):
+## Installation Instructions(For MAC only)
 
   - Create New Project (**File > New > New Project**):
    ![Step 1](https://imgur.com/97hJKuS.png)
