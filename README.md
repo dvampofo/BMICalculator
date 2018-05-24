@@ -1,5 +1,8 @@
 # BMI Calculator
 
+## Demo
+![Demo gif](https://imgur.com/Ff76aaX.gif)
+
 
 Body Mass Index (BMI) is a measure of health based on height and weight specified in metric units (i.e.,
 meters and kilograms, respectively). Given a user weighting k kilograms and who is m meter tall, their BMI
@@ -27,5 +30,4 @@ BMI = k / m^2
  ![Step 7](https://imgur.com/W17yGSX.png)
 - Unzip the downloaded file and copy it to the *src* folder here.  
 
-If you're familiar with the Android Emulator thats's part of Android studio, run it!
-![Demo gif](https://imgur.com/Ff76aaX.gif)
+
