@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="eecs1022.lab1.Lab1Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name:"
+        android:id="@+id/labelName"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute BMI"
+        android:id="@+id/buttonCompute"
+        android:onClick="computeBMIButtonClicked"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/inputHeight"
+        android:layout_alignEnd="@+id/inputHeight"
+        android:layout_below="@+id/inputHeight"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputName"
+        android:layout_below="@+id/labelName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <!-- Dropbox for WEIGHT-->
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:entries="@array/dropboxWeight"
+        android:layout_alignTop="@+id/labelWeight"
+        android:layout_alignRight="@+id/inputName"
+        android:layout_alignEnd="@+id/inputName"
+        android:layout_alignBottom="@+id/labelWeight"
+        android:layout_toRightOf="@+id/labelWeight"
+        android:layout_toEndOf="@+id/labelWeight"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your weight:"
+        android:id="@+id/labelWeight"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/inputName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputWeight"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your height:"
+        android:id="@+id/labelHeight"
+        android:layout_below="@+id/inputWeight"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputHeight"
+        android:layout_below="@+id/labelHeight"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <!--  Dropbox for HEIGHT -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANSWER"
+        android:id="@+id/labelAnswer"
+        android:textAlignment="center"
+        android:layout_below="@+id/buttonCompute"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <!-- Spinner HEIGHT -->
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerHeight"
+        android:entries="@array/dropboxHeight"
+        android:layout_above="@+id/inputHeight"
+        android:layout_toRightOf="@+id/labelWeight"
+        android:layout_alignTop="@+id/labelHeight"
+        android:layout_alignRight="@+id/inputHeight"
+        android:layout_alignEnd="@+id/inputHeight"/>
+
+</RelativeLayout>
